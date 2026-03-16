@@ -53,6 +53,7 @@ namespace LAB_4._2
             Console.WriteLine("ID : " + this.bookId);
             Console.WriteLine("TYPE : " + this.bookType);
             Console.WriteLine("COPY : " + this.bookCopy);
+            Console.WriteLine();
         }
         public void AddBookCopy(int x)
         {
