@@ -46,7 +46,7 @@ namespace LAB_4
             }
             else
             {
-                Console.WriteLine("Low balance");
+                Console.WriteLine("Low balance :"+this.balance);
             }
         }
         public void Transfer(int amount, Account receiver)
